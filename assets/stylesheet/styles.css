@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.left{
+	color: #ffffff;
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.nav-bar{
+	padding-top: 40px;
+
+}
+.right{
+    float: right;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.right a{
+	margin-left: 12px;
+	color: #ffffff;
+}
+.clearfix:after, .clearfix:before{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.hero{
+	padding: 400px;
+	text-align: center;
+	background-attachment: fixed;
+	background-image: url(https://www.tdplace.ca/wp-content/uploads/2019/01/Street-Sunset.jpg);
+	
+}
+.fourth-img{
+	background-image: url("../media/asphalt-bokeh-city-depth-of-field-new-york-city-reflection-road-traffic-lights-urban-water-drops-wet-rain-wallpaper-preview.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.sec-bg-img {
+	background-image: url("../media/Street-Sunset.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.hero i{
+	color: #ffffff;
+	font-size: 50px;
+	padding: 30px;
+	margin-bottom: 30px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.hero h1{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.hero p{
+	color: #ffffff;
+	font-size: 20px;
+}
+.btn{
+	margin-top: 30px;
+	text-transform: uppercase;
+	background-color: #51BAA4;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 20px 50px;
+	border-radius: 35px;
+	font-weight: 600;
+}
+.secondary-section{
+	background-color: lightgrey;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.column{
+	padding: 100px;
+	background-color: white;
+}
+.column img{
+	margin-left: 30px;
+	float: left;
+	width: 40%;
+}
+.column div{
+	margin-left: 60px;
+	float: left;
+	width: 40%;
+}
+.column h2{
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+.column p{
+	padding-top: 30px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.btn-2{
+	margin-top: 30px;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	color: #51BAA4;
+	font-size: 20px;
+	padding: 15px 50px;
+	border: 2px solid #51BAA4;
+	border-radius: 35px;
+	font-weight: 600;
+}
+.column1{
+	margin: 50px 0;
+	padding: 100px;
+	background-color: white;
+}
+.column1 div{
+	margin-left: 30px;
+	float: left;
+	width: 40%;
+}
+.column1 img{
+	margin-right: 120px;
+	float: right;
+	width: 40%;
+}
+.column1 h2{
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+.column1 p{
+	padding-top: 30px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.third-section{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.third-section h3{
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.third-section p{
+	font-size: 20px;
+	padding-bottom: 20px;
+	color: gray;
+}
+.fourth-section{
+	padding: 200px;
+	text-align: center;
+	background-attachment: fixed;
+}
+.fourth-section h3{
+	padding-top: 40px;
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.fourth-section p{
+	font-size: 20px;
+	padding-bottom: 20px;
+	color: gray;
+}
+.form{
+	text-align: center;
+	background-color: #1E2832;
+	color: white;
+	padding: 100px;
+}
+input{
+	border: none;
+	background-color: #2A333D;
+	padding: 30px 100px;
+	width: 47%;
+	margin-bottom: 50px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+textarea{
+	font-size: 20px;
+	border: none;
+	background-color: #2A333D;
+	width: 100%;
+	padding: 60px 0;
+}
+hr{
+	margin-top: 100px;
+	color: grey;
+}
+.footer{
+	text-align: center;
+	background-color: #1E2832;
+}
+ .footer i{
+	font-size: 40px;
+	color: #2A333D;
+	margin-left: 20px;
+}
+.footer div{
+	padding-bottom: 50px;
+}
+small{
+	color: #2A333D;
+}
